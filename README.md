@@ -18,6 +18,8 @@ Dependencies
 * PHP5+
 * Imagemagick
 * Imagick PHP extension
+* Verdana: verdana.ttf and verdanab.ttf (get them from 
+    http://corefonts.sourceforge.net/ and place in assets/fonts)
 * twitter-async by Jaisen Mathai (included in "/lib" folder)
     More info: https://github.com/jmathai/twitter-async
 
@@ -34,11 +36,10 @@ Usage
     in assets/images/ and update the display->background_image
     config.json property to the new filename.
 
-    Run:
-    > php generate-background.php
+    Run: <strong>php generate-background.php</strong>
 
     You may want to first comment out the line:
-    > $twh->setBackground('background.jpg');
+    <strong>$twh->setBackground('background.jpg');</strong>
 
     Until you are satisfied with the outputted background.jpg
 
@@ -57,18 +58,19 @@ of the default desktop interface, however the generated
 backgrounds are still fully visible in browser windows of 
 1300px+ width.
 
+Verdana is not a very good font and could probably be replaced
+with an open source one (or licensed Helvetica if you want
+to be classy).
+
 License
 -------
 
 BSD license (see LICENSE.txt)
 
-/assets/images/clouds.png is (c) Twitter and included
-for the sake of convenience.
+Images and fonts in "assets" are (c) the respective
+rightsholders, and included for convenience:
 
-Other images and fonts in "assets" are (c) the respective
-rightsholders, and likewise included for convenience:
+* /assets/images/clouds.png is (c) Twitter
 * Skype logo (c) Skype
 * League Gothic by The League of Moveable Type
     (http://www.theleagueofmoveabletype.com/)
-* Verdana (c) Microsoft
-    (http://corefonts.sourceforge.net/) 
