@@ -7,6 +7,8 @@ Description
 Live Twitter Background produces a Twitter background using
 the desired "live" input data.
 
+Example: http://cloud.github.com/downloads/bregenspan/live-twitter-background/example-background.jpg
+
 Current available inputs:
 
 * Recent followers

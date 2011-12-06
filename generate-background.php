@@ -30,10 +30,11 @@ $grid->write($canvas, $follower_grid_info);
 $grid->annotate($canvas, array('font_size' => '28', 'font_color' => $config['display']['grid_color'], 'font' => 'League Gothic.otf', 'font_style' => IMagick::STYLE_OBLIQUE, 'text' => 'LATEST FOLLOWERS', 'offset_y' => $config['display']['grid_y'], 'offset_x' => 25, 'angle' => 0));
 
 // Optional display of Skype status
-if (!empty($config['skype_name]'])) {
-	if (true === Curl::get_binary('http://mystatus.skype.com/smallclassic/' . $config['skype_name'], 'retrieved/skype_status.png')) {
+if (!empty($config['skype_name'])) {
+    print "Getting Skype status image...\n";
+	if (true === Curl::get_binary('http://mystatus.skype.com/smallclassic/' . $config['skype_name'], $config['paths']['data'] .'skype_status.png')) {
 		$skype = new IMagick($config['paths']['images'] . 'skype.png');
-		$status = new IMagick('retrieved/skype_status.png');
+		$status = new IMagick($config['paths']['data'] . 'skype_status.png');
 		$grid->composite(&$canvas, &$skype, IMagick::COMPOSITE_OVER, 0, $grid->height + $grid->margin_top + 16);
 		$grid->composite(&$canvas, &$status, IMagick::COMPOSITE_OVER, 90, $grid->height + $grid->margin_top + 34);
 	
