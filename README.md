@@ -61,3 +61,9 @@ License
 -------
 
 BSD license (see LICENSE.txt)
+
+/assets/images/clouds.png is Copyright Twitter and included
+for the sake of convenience.
+
+Other images and fonts in "assets" are (c) the respective
+rightsholders, and likewise included for convenience.
