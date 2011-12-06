@@ -62,8 +62,13 @@ License
 
 BSD license (see LICENSE.txt)
 
-/assets/images/clouds.png is Copyright Twitter and included
+/assets/images/clouds.png is (c) Twitter and included
 for the sake of convenience.
 
 Other images and fonts in "assets" are (c) the respective
-rightsholders, and likewise included for convenience.
+rightsholders, and likewise included for convenience:
+* Skype logo (c) Skype
+* League Gothic by The League of Moveable Type
+    (http://www.theleagueofmoveabletype.com/)
+* Verdana (c) Microsoft
+    (http://corefonts.sourceforge.net/) 
