@@ -18,12 +18,17 @@ Dependencies
 * PHP5+
 * Imagemagick
 * Imagick PHP extension
+* twitter-async by Jaisen Mathai (included in "/lib" folder)
+    More info: https://github.com/jmathai/twitter-async
 
 Usage
 -----
 
 * Set up a new application on twitter.com
 * In config.json, set the app keys and user token info
+* Ensure that the folder containing generate-background.php,
+    as well as the "retrieved" folder, arewriteable to the
+    user you will run the script with
 * Tweak other config.json settings as desired.
     For a different background image, place the image
     in assets/images/ and update the display->background_image
@@ -51,3 +56,8 @@ I stopped developing this when Twitter increased the width
 of the default desktop interface, however the generated
 backgrounds are still fully visible in browser windows of 
 1300px+ width.
+
+License
+-------
+
+BSD license (see LICENSE.txt)
