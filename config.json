@@ -1,0 +1,29 @@
+{
+    "auth": {
+        "app_key": "",
+        "app_secret": "",
+        "user_token": "",
+        "user_secret": ""
+    },
+
+    "display": {
+        "background_image": "clouds.png",
+        "rows": 3,
+        "padding_x": 20,
+        "padding_y": 20,
+        "headshot_border": 5,
+        "headshot_border_color": "#ffffff",
+        "text_y": 18,
+        "text_size": 14,
+        "grid_color": "#2e6582",
+        "grid_y": 50
+    },
+
+    "paths": {
+        "fonts": "assets/fonts/",
+        "images": "assets/images/",
+        "data": "retrieved/"
+    },
+
+    "skype_name": ""
+}
